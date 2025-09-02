@@ -13,13 +13,13 @@ A query-guided decoder fusion model for specificity learning in RGB-T salient ob
 <p align="center">
     <img src="result2.png"/> <br />
     <em> 
-    Figure 1: Subjective comparison among different methods. 
+    Figure 1: samples. 
     </em>
 </p>
 
 <p align="center">
     <img src="result3.png"/> <br />
     <em> 
-    Figure 1: Subjective comparison among different methods. 
+    Figure 1: feature visualisation. 
     </em>
 </p>
