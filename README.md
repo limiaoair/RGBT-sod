@@ -1,5 +1,6 @@
 # RGBT SOD
 A query-guided decoder fusion model for specificity learning in RGB-T salient object detection
+the code come soon
 
 # Results
 
