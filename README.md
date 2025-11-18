@@ -29,76 +29,25 @@ methods on 3 datasets.
   pip install scikit-learn matplotlib thop h5py SimpleITK scikit-image medpy yacs
    ```
 
-### Datasets
- Put the [CoCo-SEG](https://drive.google.com/file/d/1GbA_WKvJm04Z1tR8pTSzBdYVQ75avg4f/view), [CoCA](http://zhaozhang.net/coca.html), [CoSOD3k](http://dpfan.net/CoSOD3K/) and [Cosal2015](https://drive.google.com/u/0/uc?id=1mmYpGx17t8WocdPcw2WKeuFpz6VHoZ6K&export=download) datasets to `PGFusion/data` as the following structure:
+## Benchmark Datasets
+
+- [VT5000 (ArXiv)](https://arxiv.org/pdf/2007.03262.pdf) [Download Datasets (Google Drive)](https://drive.google.com/drive/folders/1So0dHK5-aKj1t6OmFhRGLh_0nsXbldZE?usp=sharing) 
+- [VT1000 (ArXiv)](https://arxiv.org/pdf/1905.06741.pdf) [Download Datasets (Google Drive)](https://drive.google.com/drive/folders/1kEGOuljxKxIYwH54sNH_Wqmw7Sf7tTw5?usp=sharing) 
+
+  
+ Datasets to `Mainfile/data` as the following structure:
   ```
-  PGFusion
+  RGBT-Code
      ├── other codes
      ├── ...
      │ 
      └── data
            
-           ├── CoCo-SEG (CoCo-SEG's image files)
-           ├── CoCA (CoCA's image files)
-           ├── CoSOD3k (CoSOD3k's image files)
-           └── Cosal2015 (Cosal2015's image files)
+           ├── VT1000 (CoCo-SEG's image files)
+           ├── VT5000 (CoSOD3k's image files)
+           ├── NLPR (CoSOD3k's image files)  
+           └── NJUK (Cosal2015's image files)
   ```
 
 
-### Contact
-Feel free to send e-mails to me (lmiao@tongji.edu.cn).
 
-## Relevant Literature
-
-```text
-@misc{ruan2024vmunetvisionmambaunet,
-      title={VM-UNet: Vision Mamba UNet for Medical Image Segmentation}, 
-      author={Jiacheng Ruan and Jincheng Li and Suncheng Xiang},
-      year={2024},
-      eprint={2402.02491},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV},
-      url={https://arxiv.org/abs/2402.02491}, 
-}
-
-@misc{yu2022democracydoesmattercomprehensive,
-      title={Democracy Does Matter: Comprehensive Feature Mining for Co-Salient Object Detection}, 
-      author={Siyue Yu and Jimin Xiao and Bingfeng Zhang and Eng Gee Lim},
-      year={2022},
-      eprint={2203.05787},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2203.05787}, 
-}
-
-...
-```
-
-
-
-# RGBT SOD
-A query-guided decoder fusion model for specificity learning in RGB-T salient object detection
-the code come soon
-
-# Results
-
-<p align="center">
-    <img src="./result1.png"/> <br />
-    <em> 
-    Figure 1: Subjective comparison among different methods. 
-    </em>
-</p>
-
-<p align="center">
-    <img src="./result2.png"/> <br />
-    <em> 
-    Figure 2: samples. 
-    </em>
-</p>
-
-<p align="center">
-    <img src="./result3.png"/> <br />
-    <em> 
-    Figure 3: feature visualisation. 
-    </em>
-</p>
